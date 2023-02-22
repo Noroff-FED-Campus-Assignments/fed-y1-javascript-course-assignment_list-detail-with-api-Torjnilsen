@@ -13,6 +13,18 @@ This project was bootstrapped with Vite.
 - [API Docs](_LINK_TO_API_DOCS_)
 
 ## Report
+REPORT JAVASCRIPT CA TORJUS NILSEN
+
+in this task i have been tasked to fetch an API form the web and display it on my own page with and index page with the results of the API, a details page were u can find details on each result i have also as the task says a contact page.
+
+the API i have choosen is an list of Harry Potter characters, on the list of API's i have displayed html with an a tag to details page with character Name, witch house they are from and a picture of the character. 
+
+i have completed this task whith help of an youtube guide i have followed. the youtube only helped me with the first page/ index page the details and contact page i have created whith help in class, knowledge learned in class and knowledged learned on my own. the reson i have choosen this exactly API it was from the youtube video i dident choose the exact same API link but a deafrent Harry Potter caracthers API list. i used this in my task beqause its was easier to understand what i was dooing and why, it helped my understand the link betwen html and javascript, how it links together and why. and i belive its mutch better to delivere a task i undersdant i know whath and why i have donethe task.
+
+for the CSS i have used i have created my self it is really basic syntex/styling, witch means i have not used the boiler plate CSS as the original repo. It is not so much really exciting stylings and functions. as said in the task asignment the focus issent the css its on the javascript. i used my own CSS because its a good work experience for me i need to work on my CSS skils and its also a good to way refreshed som of the basics off CSS. On the contact page it is also really basic CSS styling. My main focus was som told the javascript.
+
+the CA was a bit tricky one it has been mutch to take in over the last few week. Overall feeling it has went ok not great but nott bad. i have still mutch to understand at get through my fingers and to get comfortable with. 
+
 
 _ADD_YOUR_REPORT_HERE_
 
