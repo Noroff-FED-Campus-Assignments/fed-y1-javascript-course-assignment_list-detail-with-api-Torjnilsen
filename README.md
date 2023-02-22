@@ -26,7 +26,6 @@ for the CSS i have used i have created my self it is really basic syntex/styling
 the CA was a bit tricky one it has been mutch to take in over the last few week. Overall feeling it has went ok not great but nott bad. i have still mutch to understand at get through my fingers and to get comfortable with. 
 
 
-_ADD_YOUR_REPORT_HERE_
 
 ## Getting Started
 
