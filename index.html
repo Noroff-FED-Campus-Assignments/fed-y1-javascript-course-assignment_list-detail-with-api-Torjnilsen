@@ -1,40 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="_REPLACE_WITH_DESCRIPTION_" />
-    <meta
-      name="keywords"
-      content="HTML, CSS, JavaScript, _REPLACE_WITH_KEYWORD_"
-    />
-    <meta name="author" content="_YOUR_NAME_" />
-    <link rel="stylesheet" href="/style.css" />
-    <!-- TODO: Import Javascript -->
-    <title>_REPLACE_SITE_NAME</title>
-  </head>
-  <body class="animate__animated animate__fadeIn">
-    <header class="l-header">
-      <h1>Home</h1>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta name="description" content="api of Harry Potter characters">
+        <meta name="author" content="Torjus Nilsen">
+        <title>harry potter carachters</title>
+        <link rel="stylesheet" href="/src/css/style.css" />
+    </head>
+    <header>
+      <nav>
+    <a id="contact" href="contact.html">contact</a>
+    </nav>
     </header>
 
-    <main class="l-main">
-      <section role="search"></section>
+    <body>
+        <div class="container">
+            <h1>&#x2728;Harry Potter Characters &#x2728;</h1>
+            <div id="searchWrapper">
+                <input
+                    type="text"
+                    name="searchBar"
+                    id="searchBar"
+                    placeholder="search for a character"
+                />
+            </div>
+            <ul id="charactersList"></ul>
+        </div>
+        <script>
+          const charactersList = document.getElementById('charactersList');
+const searchBar = document.getElementById('searchBar');
+let hpCharacters = [];
 
-      <article role="doc-introduction">
-        <h2>List</h2>
+searchBar.addEventListener('keyup', (e) => {
+    const searchString = e.target.value.toLowerCase();
 
-        <p>_REPLACE_INTRODUCTION_</p>
-      </article>
+    const filteredCharacters = hpCharacters.filter((character) => {
+        return (
+            character.name.toLowerCase().includes(searchString) ||
+            character.house.toLowerCase().includes(searchString)
+        );
+    });
+    displayCharacters(filteredCharacters);
+});
 
-      <section role="list">
-        <div id="js-list-container">_LOADING_INDICATOR_GOES_HERE_</div>
-      </section>
-    </main>
+const loadCharacters = async () => {
+    try {
+        const res = await fetch('https://hp-api.onrender.com/api/characters/students');
+        hpCharacters = await res.json();
+        displayCharacters(hpCharacters);
+    } catch (error) {
+            console.log(error);
+            filteredCharacters.innerHTML = message("error",error)
+          }
+};
 
-    <footer class="l-footer">
-      <small>Created with ❤️ by _REPLACE_</small>
-    </footer>
-  </body>
+const displayCharacters = (characters) => {
+    const htmlString = characters
+        .map((character) => {
+            return `
+            <li class="character">
+               <a href="/details.html?id=${character.id}"> <h2>${character.name}</h2>
+                <p>House: ${character.house}</p>
+                <img src="${character.image}"></img>
+                </a>
+            </li>
+        `;
+        })
+        .join('');
+    charactersList.innerHTML = htmlString;
+};
+
+loadCharacters();
+        </script>
+    </body>
 </html>
