@@ -72,44 +72,44 @@ All of these todo's must be done to pass the asssignment.
 - [ ] My commit messages are relavant and make sense. [How to write good commit messages](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/)
 - [ ] [End-user experiences a complete custom UI design.](https://www.figma.com/file/KExTTAE75DRhq2xTvapFR4/FED-Whiteboard?node-id=0%3A1&t=UItKehGgT8gRlibY-1)
 
-  - [ ] Is user-friendly
-  - [ ] Effective use of the pillars of design
-    - [ ] Typography
-    - [ ] COlour
-    - [ ] Composition
-    - [ ] Art Direction
-    - [ ] Motion
-  - [ ] Adhered to principles of design
-    - [ ] Contrast
-    - [ ] Balance and alignment
-    - [ ] Emphasis
-    - [ ] Proportion
-    - [ ] Hiearchy
-    - [ ] Repetition
-    - [ ] Ryhthem
-    - [ ] Pattern
-    - [ ] Negative space
-    - [ ] Movement
+  - [x] Is user-friendly
+  - [x] Effective use of the pillars of design
+    - [x] Typography
+    - [x] COlour
+    - [x] Composition
+    - [x] Art Direction
+    - [x] Motion
+  - [x] Adhered to principles of design
+    - [x] Contrast
+    - [x] Balance and alignment
+    - [x] Emphasis
+    - [x] Proportion
+    - [x] Hiearchy
+    - [x] Repetition
+    - [x] Ryhthem
+    - [x] Pattern
+    - [x] Negative space
+    - [x] Movement
 
 ## Checklist
 
 Make sure you go through this checklist before submitting your project to Moodle.
 
 - [ ] All pages have a meta description.
-- [ ] All pages have a valid title.
+- [x] All pages have a valid title.
 - [ ] All pages import the correct css files.
 - [ ] All pages import the correct JS file.
-- [ ] Details page URL includes a query param.
-- [ ] My website makes a GET request to an API to get a list of results.
-- [ ] My website makes a GET request to an API to get details of one result.
+- [x] Details page URL includes a query param.
+- [x] My website makes a GET request to an API to get a list of results.
+- [x] My website makes a GET request to an API to get details of one result.
 - [ ] Input fields have the following attributes;
 - [ ] All images have an alt tag;
   - [ ] A name,
   - [ ] A placeholder,
   - [ ] A aria-describedby,
   - [ ] Required
-- [ ] I have not copied Javascript code.
-- [ ] I have not used a Javascript library.
+- [x] I have not copied Javascript code.
+- [x] I have not used a Javascript library.
 - [ ] Removed all unused files.
 - [ ] Named all images properly.
 - [ ] Committed all my code to github.
