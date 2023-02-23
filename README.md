@@ -15,15 +15,15 @@ This project was bootstrapped with Vite.
 ## Report
 REPORT JAVASCRIPT CA TORJUS NILSEN
 
-in this task i have been tasked to fetch an API form the web and display it on my own page with and index page with the results of the API, a details page were u can find details on each result i have also as the task says a contact page.
+In this task, I have been tasked to fetch an API from the web and display it on my own page with an index page with the results of the API, a details page where you can find details on each result I have also, as the task says, a contact page.
 
-the API i have choosen is an list of Harry Potter characters, on the list of API's i have displayed html with an a tag to details page with character Name, witch house they are from and a picture of the character. 
+The API I have chosen is a list of Harry Potter characters. On the list of APIs, I have displayed HTML with an a tag to details page with character name, which house they are from, and a picture of the character.
 
-i have completed this task whith help of an youtube guide i have followed. the youtube only helped me with the first page/ index page the details and contact page i have created whith help in class, knowledge learned in class and knowledged learned on my own. the reson i have choosen this exactly API it was from the youtube video i dident choose the exact same API link but a deafrent Harry Potter caracthers API list. i used this in my task beqause its was easier to understand what i was dooing and why, it helped my understand the link betwen html and javascript, how it links together and why. and i belive its mutch better to delivere a task i undersdant i know whath and why i have donethe task.
+I have completed this task with the help of a YouTube guide I have followed. The YouTube only helped me with the first page/index page. The details and contact page I have created with help in class, knowledge learned in class and knowledge learned on my own. The reason I have chosen this exact API is that it was from the YouTube video. I didn't choose the exact same API link but a different Harry Potter characters API list. I used this in my task because it was easier to understand what I was doing and why. It helped me understand the link between HTML and Javascript, how it links together, and why. And I believe it's much better to deliver a task I understand. I know what and why I have done the task.
 
-for the CSS i have used i have created my self it is really basic syntex/styling, witch means i have not used the boiler plate CSS as the original repo. It is not so much really exciting stylings and functions. as said in the task asignment the focus issent the css its on the javascript. i used my own CSS because its a good work experience for me i need to work on my CSS skils and its also a good to way refreshed som of the basics off CSS. On the contact page it is also really basic CSS styling. My main focus was som told the javascript.
+For the CSS I have used, I have created myself. It is really basic syntax/styling, which means I have not used the boilerplate CSS as the original repo. It is not so much really exciting stylings and functions. As said in the task assignment, the focus isn't the CSS, it's on the Javascript. I used my own CSS because it's good work experience for me. I need to work on my CSS skills, and it's also a good way to refresh some of the basics of CSS. On the contact page, it is also really basic CSS styling. My main focus was, as told, the Javascript.
 
-the CA was a bit tricky one it has been mutch to take in over the last few week. Overall feeling it has went ok not great but nott bad. i have still mutch to understand at get through my fingers and to get comfortable with. 
+The CA was a bit tricky one. It has been much to take in over the last few weeks. Overall feeling, it has gone okay, not great but not bad. I still have much to understand and get through my fingers and to get comfortable with the different technologies used in this task. However, I am confident that with more practice and experience, I will become more proficient in Javascript, HTML, and CSS.
 
 
 
@@ -95,34 +95,34 @@ All of these todo's must be done to pass the asssignment.
 
 Make sure you go through this checklist before submitting your project to Moodle.
 
-- [ ] All pages have a meta description.
+- [x] All pages have a meta description.
 - [x] All pages have a valid title.
 - [ ] All pages import the correct css files.
 - [ ] All pages import the correct JS file.
 - [x] Details page URL includes a query param.
 - [x] My website makes a GET request to an API to get a list of results.
 - [x] My website makes a GET request to an API to get details of one result.
-- [ ] Input fields have the following attributes;
+- [x] Input fields have the following attributes;
 - [ ] All images have an alt tag;
-  - [ ] A name,
-  - [ ] A placeholder,
-  - [ ] A aria-describedby,
-  - [ ] Required
+  - [x] A name,
+  - [x] A placeholder,
+  - [x] A aria-describedby,
+  - [x] Required
 - [x] I have not copied Javascript code.
 - [x] I have not used a Javascript library.
-- [ ] Removed all unused files.
-- [ ] Named all images properly.
-- [ ] Committed all my code to github.
-- [ ] My repo is publically viewable.
-- [ ] I've submitted/ written a report.
-- [ ] I've removed all todo notes in code.
-- [ ] I've removed all console logs in code.
-- [ ] Code is formatted correctly.
-- [ ] There are no red underlines in VSCode.
-- [ ] There are no error messages in the terminal when I run the project.
-- [ ] My code is indented correctly.
-- [ ] I've checked my report for grammer & spelling using grammerly or chatGPT
-- [ ] I've used used [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
+- [x] Removed all unused files.
+- [x] Named all images properly.
+- [x] Committed all my code to github.
+- [x] My repo is publically viewable.
+- [x] I've submitted/ written a report.
+- [x] I've removed all todo notes in code.
+- [x] I've removed all console logs in code.
+- [x] Code is formatted correctly.
+- [x] There are no red underlines in VSCode.
+- [x] There are no error messages in the terminal when I run the project.
+- [x] My code is indented correctly.
+- [x] I've checked my report for grammer & spelling using grammerly or chatGPT
+- [x] I've used used [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
 - [ ] I've checked off every todo in this README.
 
 ## Help & Tutorials
@@ -141,5 +141,5 @@ Make sure you go through this checklist before submitting your project to Moodle
 
 ## Authors
 
-- _YOURE_NAME_ (@_your_github_username_)
+- Torjus Nilsen (@_your_github_@TorjNilsen)
 - Monde Sineke (@S3ak)
