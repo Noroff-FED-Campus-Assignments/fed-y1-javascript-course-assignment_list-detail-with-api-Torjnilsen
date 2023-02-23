@@ -1,32 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="_REPLACE_WITH_DESCRIPTION_" />
-    <meta
-      name="keywords"
-      content="HTML, CSS, JavaScript, _REPLACE_WITH_KEYWORD_"
-    />
-    <meta name="author" content="_YOUR_NAME_" />
-    <link rel="stylesheet" href="/style.css" />
-    <!-- TODO: Import Javascript -->
-    <title>_REPLACE_WITH_OBJECT_TITLE | _REPLACE_SITE_NAME</title>
-  </head>
-  <body class="animate__animated animate__fadeIn">
-    <header class="l-header">
-      <h1><span id="js-h1">_REPLACE_WITH_OBJECT_TITLE</span>Details</h1>
-    </header>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="api details of Harry Potter characters">
+    <meta name="keywords" content="html, js, API, reciving params" >
+    <meta name="author" content="Torjus Nilsen">
+  <title>harry potter carachters details page</title>
+</head>
+<body>
+  <a href="/contact.html">back to carachters</a>
+<div id="CH"></div>
 
-    <main class="l-main">
-      <article>
-        <!-- TODO: Insert loading indicator and replace with object detail properties -->
-      </article>
-    </main>
 
-    <footer class="l-footer">
-      <small>Created with ❤️ by _REPLACE_</small>
-    </footer>
-  </body>
+<script> 
+
+const urlParams = new URLSearchParams(window.location.search)
+const id = urlParams.get("id");
+
+const loadCharacters = async () => {
+    try {
+        const res = await fetch('https://hp-api.onrender.com/api/characters/students');
+        hpCharacters = await res.json();
+        const currenCh = findCharacter(hpCharacters, id)
+        makeCharacterHTML(currenCh)
+        console.log(currenCh)
+    } catch (error) {
+            console.log(error);
+            filteredCharacters.innerHTML = message("error",error)
+          }
+};
+loadCharacters()
+
+
+function findCharacter(list, selectedCharacter) {
+  return list.find(item => item.id === selectedCharacter)
+
+}
+
+function makeCharacterHTML(ch) {
+document.querySelector("#CH").innerHTML = `
+<h2>${ch.name}</h2>
+<p>${ch.house}</p>
+<img src="${ch.image}"/>
+`
+}
+
+
+</script>
+</body>
 </html>
